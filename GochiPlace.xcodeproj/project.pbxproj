@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9078CFC31C0B1C9400BACFD2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9078CFC21C0B1C9400BACFD2 /* AppDelegate.swift */; };
+		9078CFC51C0B1C9400BACFD2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9078CFC41C0B1C9400BACFD2 /* ViewController.swift */; };
+		9078CFC81C0B1C9500BACFD2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9078CFC61C0B1C9500BACFD2 /* Main.storyboard */; };
+		9078CFCA1C0B1C9500BACFD2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9078CFC91C0B1C9500BACFD2 /* Assets.xcassets */; };
+		9078CFCD1C0B1C9500BACFD2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9078CFCB1C0B1C9500BACFD2 /* LaunchScreen.storyboard */; };
+		9078CFD81C0B1C9500BACFD2 /* GochiPlaceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9078CFD71C0B1C9500BACFD2 /* GochiPlaceTests.swift */; };
+		9078CFE31C0B1C9500BACFD2 /* GochiPlaceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9078CFE21C0B1C9500BACFD2 /* GochiPlaceUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9078CFD41C0B1C9500BACFD2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9078CFB71C0B1C9400BACFD2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9078CFBE1C0B1C9400BACFD2;
+			remoteInfo = GochiPlace;
+		};
+		9078CFDF1C0B1C9500BACFD2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9078CFB71C0B1C9400BACFD2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9078CFBE1C0B1C9400BACFD2;
+			remoteInfo = GochiPlace;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9078CFBF1C0B1C9400BACFD2 /* GochiPlace.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GochiPlace.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9078CFC21C0B1C9400BACFD2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9078CFC41C0B1C9400BACFD2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9078CFC71C0B1C9500BACFD2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9078CFC91C0B1C9500BACFD2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9078CFCC1C0B1C9500BACFD2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9078CFCE1C0B1C9500BACFD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9078CFD31C0B1C9500BACFD2 /* GochiPlaceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GochiPlaceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9078CFD71C0B1C9500BACFD2 /* GochiPlaceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GochiPlaceTests.swift; sourceTree = "<group>"; };
+		9078CFD91C0B1C9500BACFD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9078CFDE1C0B1C9500BACFD2 /* GochiPlaceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GochiPlaceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9078CFE21C0B1C9500BACFD2 /* GochiPlaceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GochiPlaceUITests.swift; sourceTree = "<group>"; };
+		9078CFE41C0B1C9500BACFD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9078CFBC1C0B1C9400BACFD2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9078CFD01C0B1C9500BACFD2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9078CFDB1C0B1C9500BACFD2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9078CFB61C0B1C9400BACFD2 = {
+			isa = PBXGroup;
+			children = (
+				9078CFC11C0B1C9400BACFD2 /* GochiPlace */,
+				9078CFD61C0B1C9500BACFD2 /* GochiPlaceTests */,
+				9078CFE11C0B1C9500BACFD2 /* GochiPlaceUITests */,
+				9078CFC01C0B1C9400BACFD2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9078CFC01C0B1C9400BACFD2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9078CFBF1C0B1C9400BACFD2 /* GochiPlace.app */,
+				9078CFD31C0B1C9500BACFD2 /* GochiPlaceTests.xctest */,
+				9078CFDE1C0B1C9500BACFD2 /* GochiPlaceUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9078CFC11C0B1C9400BACFD2 /* GochiPlace */ = {
+			isa = PBXGroup;
+			children = (
+				9078CFC21C0B1C9400BACFD2 /* AppDelegate.swift */,
+				9078CFC41C0B1C9400BACFD2 /* ViewController.swift */,
+				9078CFC61C0B1C9500BACFD2 /* Main.storyboard */,
+				9078CFC91C0B1C9500BACFD2 /* Assets.xcassets */,
+				9078CFCB1C0B1C9500BACFD2 /* LaunchScreen.storyboard */,
+				9078CFCE1C0B1C9500BACFD2 /* Info.plist */,
+			);
+			path = GochiPlace;
+			sourceTree = "<group>";
+		};
+		9078CFD61C0B1C9500BACFD2 /* GochiPlaceTests */ = {
+			isa = PBXGroup;
+			children = (
+				9078CFD71C0B1C9500BACFD2 /* GochiPlaceTests.swift */,
+				9078CFD91C0B1C9500BACFD2 /* Info.plist */,
+			);
+			path = GochiPlaceTests;
+			sourceTree = "<group>";
+		};
+		9078CFE11C0B1C9500BACFD2 /* GochiPlaceUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9078CFE21C0B1C9500BACFD2 /* GochiPlaceUITests.swift */,
+				9078CFE41C0B1C9500BACFD2 /* Info.plist */,
+			);
+			path = GochiPlaceUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9078CFBE1C0B1C9400BACFD2 /* GochiPlace */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9078CFE71C0B1C9500BACFD2 /* Build configuration list for PBXNativeTarget "GochiPlace" */;
+			buildPhases = (
+				9078CFBB1C0B1C9400BACFD2 /* Sources */,
+				9078CFBC1C0B1C9400BACFD2 /* Frameworks */,
+				9078CFBD1C0B1C9400BACFD2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GochiPlace;
+			productName = GochiPlace;
+			productReference = 9078CFBF1C0B1C9400BACFD2 /* GochiPlace.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9078CFD21C0B1C9500BACFD2 /* GochiPlaceTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9078CFEA1C0B1C9500BACFD2 /* Build configuration list for PBXNativeTarget "GochiPlaceTests" */;
+			buildPhases = (
+				9078CFCF1C0B1C9500BACFD2 /* Sources */,
+				9078CFD01C0B1C9500BACFD2 /* Frameworks */,
+				9078CFD11C0B1C9500BACFD2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9078CFD51C0B1C9500BACFD2 /* PBXTargetDependency */,
+			);
+			name = GochiPlaceTests;
+			productName = GochiPlaceTests;
+			productReference = 9078CFD31C0B1C9500BACFD2 /* GochiPlaceTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9078CFDD1C0B1C9500BACFD2 /* GochiPlaceUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9078CFED1C0B1C9500BACFD2 /* Build configuration list for PBXNativeTarget "GochiPlaceUITests" */;
+			buildPhases = (
+				9078CFDA1C0B1C9500BACFD2 /* Sources */,
+				9078CFDB1C0B1C9500BACFD2 /* Frameworks */,
+				9078CFDC1C0B1C9500BACFD2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9078CFE01C0B1C9500BACFD2 /* PBXTargetDependency */,
+			);
+			name = GochiPlaceUITests;
+			productName = GochiPlaceUITests;
+			productReference = 9078CFDE1C0B1C9500BACFD2 /* GochiPlaceUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9078CFB71C0B1C9400BACFD2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = YoSakamoto;
+				TargetAttributes = {
+					9078CFBE1C0B1C9400BACFD2 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					9078CFD21C0B1C9500BACFD2 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 9078CFBE1C0B1C9400BACFD2;
+					};
+					9078CFDD1C0B1C9500BACFD2 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 9078CFBE1C0B1C9400BACFD2;
+					};
+				};
+			};
+			buildConfigurationList = 9078CFBA1C0B1C9400BACFD2 /* Build configuration list for PBXProject "GochiPlace" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9078CFB61C0B1C9400BACFD2;
+			productRefGroup = 9078CFC01C0B1C9400BACFD2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9078CFBE1C0B1C9400BACFD2 /* GochiPlace */,
+				9078CFD21C0B1C9500BACFD2 /* GochiPlaceTests */,
+				9078CFDD1C0B1C9500BACFD2 /* GochiPlaceUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9078CFBD1C0B1C9400BACFD2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9078CFCD1C0B1C9500BACFD2 /* LaunchScreen.storyboard in Resources */,
+				9078CFCA1C0B1C9500BACFD2 /* Assets.xcassets in Resources */,
+				9078CFC81C0B1C9500BACFD2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9078CFD11C0B1C9500BACFD2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9078CFDC1C0B1C9500BACFD2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9078CFBB1C0B1C9400BACFD2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9078CFC51C0B1C9400BACFD2 /* ViewController.swift in Sources */,
+				9078CFC31C0B1C9400BACFD2 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9078CFCF1C0B1C9500BACFD2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9078CFD81C0B1C9500BACFD2 /* GochiPlaceTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9078CFDA1C0B1C9500BACFD2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9078CFE31C0B1C9500BACFD2 /* GochiPlaceUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9078CFD51C0B1C9500BACFD2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9078CFBE1C0B1C9400BACFD2 /* GochiPlace */;
+			targetProxy = 9078CFD41C0B1C9500BACFD2 /* PBXContainerItemProxy */;
+		};
+		9078CFE01C0B1C9500BACFD2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9078CFBE1C0B1C9400BACFD2 /* GochiPlace */;
+			targetProxy = 9078CFDF1C0B1C9500BACFD2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9078CFC61C0B1C9500BACFD2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9078CFC71C0B1C9500BACFD2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9078CFCB1C0B1C9500BACFD2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9078CFCC1C0B1C9500BACFD2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9078CFE51C0B1C9500BACFD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9078CFE61C0B1C9500BACFD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9078CFE81C0B1C9500BACFD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GochiPlace/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yoSakamoto.GochiPlace;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9078CFE91C0B1C9500BACFD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GochiPlace/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yoSakamoto.GochiPlace;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9078CFEB1C0B1C9500BACFD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GochiPlaceTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yoSakamoto.GochiPlaceTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GochiPlace.app/GochiPlace";
+			};
+			name = Debug;
+		};
+		9078CFEC1C0B1C9500BACFD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GochiPlaceTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yoSakamoto.GochiPlaceTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GochiPlace.app/GochiPlace";
+			};
+			name = Release;
+		};
+		9078CFEE1C0B1C9500BACFD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GochiPlaceUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yoSakamoto.GochiPlaceUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GochiPlace;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		9078CFEF1C0B1C9500BACFD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GochiPlaceUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yoSakamoto.GochiPlaceUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GochiPlace;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9078CFBA1C0B1C9400BACFD2 /* Build configuration list for PBXProject "GochiPlace" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9078CFE51C0B1C9500BACFD2 /* Debug */,
+				9078CFE61C0B1C9500BACFD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9078CFE71C0B1C9500BACFD2 /* Build configuration list for PBXNativeTarget "GochiPlace" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9078CFE81C0B1C9500BACFD2 /* Debug */,
+				9078CFE91C0B1C9500BACFD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9078CFEA1C0B1C9500BACFD2 /* Build configuration list for PBXNativeTarget "GochiPlaceTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9078CFEB1C0B1C9500BACFD2 /* Debug */,
+				9078CFEC1C0B1C9500BACFD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9078CFED1C0B1C9500BACFD2 /* Build configuration list for PBXNativeTarget "GochiPlaceUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9078CFEE1C0B1C9500BACFD2 /* Debug */,
+				9078CFEF1C0B1C9500BACFD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9078CFB71C0B1C9400BACFD2 /* Project object */;
+}
